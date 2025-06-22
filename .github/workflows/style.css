@@ -1,9 +1,28 @@
-ul{
-   color:red;
-   font-size:16px;
-   font-family:arial;
-   font-weight:700px;
-   font-style:italic;
-   text-align:center;
-   text-align:justify;
+ul {
+  color: red; /* Cambia el color del texto a rojo */
+
+  font-size: 16px; /* Ajusta el tamaño de la letra, valor fijo */
+
+  font-family: Arial, Helvetica, sans-serif; 
+  /* Cambia la tipografía. Se pueden poner varias por si el navegador no reconoce la primera */
+
+  font-weight: 700; 
+  /* Cambia el grosor de la letra. Va desde 100 (muy delgada) hasta 900 (muy gruesa). No lleva "px" */
+
+  font-style: italic; /* Inclina las letras (cursiva) */
+
+  text-align: center; /* Centra el texto horizontalmente */
+
+  text-align: justify; 
+  /* Alinea el texto a los dos lados (izquierda y derecha) */
+
+  font-weight: bold; 
+  /* Pone el texto en negrita. Es lo mismo que 700 */
+
+  font-weight: bolder; 
+  /* Hace el texto más grueso que el texto del contenedor padre */
+
+  font-weight: normal; 
+  /* Vuelve el texto a grosor normal (como si no tuviera negrita) */
 }
+/*para escribir texto es asi en css */
